@@ -60,3 +60,8 @@ a:hover{
     cursor: pointer;
     color: #dfdbdb;
 }
+
+.secao {
+    /* height: 100vh; Define a altura de cada seção para ocupar toda a altura da janela */
+    scroll-behavior: smooth; /* Ativa a rolagem suave para elementos com âncoras */
+}
