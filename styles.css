@@ -90,7 +90,7 @@ a:hover{
     }
 
     /* Estilos adicionais para a lista em dispositivos móveis (pode ser personalizado) */
-    .menu ul li {
+    .menu {
         display: block;
     }
 }
