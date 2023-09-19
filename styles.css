@@ -80,10 +80,15 @@ a:hover{
 
 @media (max-width: 768px) {
     .menu-icon {
-        display: block;
+        display: block; /* Exibe o ícone de menu em dispositivos móveis */
     }
 
     .menu {
-        display: none;
+        display: none; /* Inicialmente, a lista está oculta em dispositivos móveis */
+    }
+
+    /* Estilos adicionais para a lista em dispositivos móveis (pode ser personalizado) */
+    .menu li {
+        display: block;
     }
 }
