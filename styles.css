@@ -50,3 +50,9 @@ li {
 .linha {
     column-count: 2;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
