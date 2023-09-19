@@ -41,3 +41,8 @@ li {
     margin-right: 10px;
     color: #fff;
 }
+
+.coluna {
+    width: 46%;
+    margin: 0 auto;
+}
