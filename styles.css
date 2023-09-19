@@ -46,3 +46,7 @@ li {
     width: 46%;
     margin: 0 auto;
 }
+
+.linha {
+    column-count: 2;
+}
