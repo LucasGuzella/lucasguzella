@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0;   COR DE FUNDO CINZA */
+    color: #333; /* Cinza escuro para o texto padrão */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(25, 195, 125);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(25, 195, 125);
+}
+
+p {
+	line-height: 1.6;
+	color: #555;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.align-center{
+	display: flex;
+	align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.coluna {
+    column-count: 2;
+}
+
+.linha {
+    margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #dfdbdb;
+}
+
+.secao {
+    /* height: 100vh; Define a altura de cada seção para ocupar toda a altura da janela */
+    scroll-behavior: smooth; /* Ativa a rolagem suave para elementos com âncoras */
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Inicialmente, o ícone está oculto */
+    color: #fff;
+    float: right;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Exibe o ícone de menu em dispositivos móveis */
+    }
+
+    .menu {
+        display: none; /* Inicialmente, a lista está oculta em dispositivos móveis */
+    }
+
+    /* Estilos adicionais para a lista em dispositivos móveis (pode ser personalizado) */
+    .menu li {
+        display: block;
+    }
+}
