@@ -47,12 +47,13 @@ li {
 }
 
 .coluna {
-    width: 46%;
-    margin: 0 auto;
+    column-count: 2;
 }
 
 .linha {
-    column-count: 2;
+    margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
 }
 
 a {
