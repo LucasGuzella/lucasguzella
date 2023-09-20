@@ -53,10 +53,21 @@ li {
 }
 
 .coluna {
-    column-count: 2;
+	padding: 0 10px;
+	float: left;
 }
 
-.linha {
+.col25{
+	width: 22%;
+}
+.col50{
+	width: 46%;
+}
+.col100{
+	width: 94%;
+}
+
+.row {
     margin: 0 auto;
 	overflow: auto;
 	padding: 5px 0;
