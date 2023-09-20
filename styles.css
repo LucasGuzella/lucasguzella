@@ -128,10 +128,10 @@ a:hover{
 	h6	{
 		display: none;
 	}
-	mobile{
+	.mobile{
 		display: none;
 	}
-	desktop{
+	.desktop{
 	}
 }
 
@@ -143,9 +143,9 @@ a:hover{
 		color: rgb(25, 195, 125);
 		font-size: 1.5em;
 	}
-	mobile{
+	.mobile{
 	}
-	desktop{
+	.desktop{
 		display: none;
 	}
 }
