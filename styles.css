@@ -105,3 +105,21 @@ a:hover{
         display: block;
     }
 }
+
+@media(min-width: 769px) {
+	h5 {
+    	color: rgb(25, 195, 125);
+	}
+	h6	{
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+    h5 {
+    	display: none;
+	}
+	h6	{
+		color: rgb(25, 195, 125);
+	}
+}
