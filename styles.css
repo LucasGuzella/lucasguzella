@@ -128,6 +128,11 @@ a:hover{
 	h6	{
 		display: none;
 	}
+	mobile{
+		display: none;
+	}
+	desktop{
+	}
 }
 
 @media (max-width: 768px) {
@@ -137,5 +142,10 @@ a:hover{
 	h6	{
 		color: rgb(25, 195, 125);
 		font-size: 1.5em;
+	}
+	mobile{
+	}
+	desktop{
+		display: none;
 	}
 }
