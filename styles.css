@@ -108,7 +108,8 @@ a:hover{
 
 @media(min-width: 769px) {
 	h5 {
-    	color: rgb(25, 195, 125);
+	    	color: rgb(25, 195, 125);
+		font-size: 1.5em;
 	}
 	h6	{
 		display: none;
@@ -116,10 +117,11 @@ a:hover{
 }
 
 @media (max-width: 768px) {
-    h5 {
-    	display: none;
+	h5 {
+    		display: none;
 	}
 	h6	{
 		color: rgb(25, 195, 125);
+		font-size: 1.5em;
 	}
 }
