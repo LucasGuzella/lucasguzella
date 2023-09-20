@@ -105,8 +105,8 @@ a:hover{
     margin: 0;
 }
 
-#experiencia h3, p {
-	margin-left: 1.2em;
+#experiencia h3, #experiencia p {
+	margin-left: 1.2em !important;
 }
 
 @media (max-width: 768px) {
