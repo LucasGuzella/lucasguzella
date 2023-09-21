@@ -119,7 +119,7 @@ a:hover{
 	background-image: url(img/white-fundo.jpg);
 	background-blend-mode: multiply;
 	background-size: cover;
-	margin-top: 1em;
+	margin-top: 5%;
 }
 
 @media (max-width: 768px) {
