@@ -109,6 +109,14 @@ a:hover{
 	margin-left: 5%;
 }
 
+.fundo {
+	background-color: rgb(25, 195, 125);
+	background-image: url(img/white-fundo.jpg);
+	background-blend-mode: multiply;
+	width: 100%;
+	background-size: cover;
+}
+
 @media (max-width: 768px) {
     .menu-icon {
         display: block; /* Exibe o ícone de menu em dispositivos móveis */
