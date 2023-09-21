@@ -109,6 +109,11 @@ a:hover{
 	margin-left: 5%;
 }
 
+#conhecimento h2, conhecimento p {
+	color: #fff;
+	margin-left: 5%;
+}
+
 .fundo {
 	background-color: rgb(25, 195, 125);
 	background-image: url(img/white-fundo.jpg);
