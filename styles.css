@@ -113,7 +113,6 @@ a:hover{
 	background-color: rgb(25, 195, 125);
 	background-image: url(img/white-fundo.jpg);
 	background-blend-mode: multiply;
-	width: 100%;
 	background-size: cover;
 }
 
