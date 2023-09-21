@@ -71,9 +71,10 @@ li {
 }
 
 .row {
-    margin: 0 auto;
+	margin: 0 auto;
 	overflow: auto;
 	padding: 5px 0;
+	max-width: 900px;
 }
 
 a {
