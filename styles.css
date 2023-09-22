@@ -110,9 +110,9 @@ a:hover{
 	margin-left: 5%;
 }
 
-#conhecimento p {
+#conhecimento p, #conhecimento i {
 	color: #fff;
-	margin-left: 5%;
+	text-align: center;
 }
 
 .fundo {
