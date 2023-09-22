@@ -124,7 +124,7 @@ a:hover{
 }
 
 .imagem-branca {
-    filter: brightness(100%);
+    filter: brightness(20);
 }
 
 @media (max-width: 768px) {
