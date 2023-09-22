@@ -123,6 +123,10 @@ a:hover{
 	margin-top: 5%;
 }
 
+.imagem-branca {
+    filter: brightness(100%);
+}
+
 @media (max-width: 768px) {
     .menu-icon {
         display: block; /* Exibe o ícone de menu em dispositivos móveis */
